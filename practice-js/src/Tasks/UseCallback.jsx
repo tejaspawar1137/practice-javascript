@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from "react";
 
+//eslint-disable-next-line
 const Counter = React.memo(({ onIncrement }) => {
   console.log("Counter rendered");
   return <button onClick={onIncrement}>Increment</button>;
