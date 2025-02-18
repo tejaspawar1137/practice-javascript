@@ -1,10 +1,15 @@
-import DebounceThrottling from "./Tasks/DebounceThrottling"
+// import DebounceThrottling from "./Tasks/DebounceThrottling"
+// import UseMemo from "./Tasks/UseMemo"
+
+import UseCallback from "./Tasks/UseCallback"
 
 
 const App = () => {
   return (
     <div>
-      <DebounceThrottling />
+      {/* <DebounceThrottling /> */}
+      {/* <UseMemo /> */}
+      <UseCallback />
     </div>
   )
 }

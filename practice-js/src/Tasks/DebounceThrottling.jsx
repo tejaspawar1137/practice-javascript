@@ -19,11 +19,12 @@ const useThrottling = (text, delay) => {
   const lastCall = useState(0);
   
    useEffect(() => {
-      const now = Date.now();
-      if(now - lastCall[0] > delay) {
-        setThrottledValue(text);
-        lastCall[0] = now
-      }
+     const now = Date.now();
+     if (now - lastCall[0] > delay) {
+       setThrottledValue(text);
+       lastCall[0] = now;
+     }
+     //eslint-disable-next-line
    },[text,delay])
    return {
     throttledValue,
