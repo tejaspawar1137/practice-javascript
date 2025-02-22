@@ -1,7 +1,17 @@
 // import DebounceThrottling from "./Tasks/DebounceThrottling"
 // import UseMemo from "./Tasks/UseMemo"
 
-import UseCallback from "./Tasks/UseCallback"
+import PromiseAllSettled from "./Promises/PromiseAllSettled"
+
+// import AsyncAwait from "./async-await/Index"
+// import PromiseAll from "./Promises/PromiseAll"
+// import PromiseRace from "./Promises/PromiseRace"
+
+// import EventLoopPromises from "./EventLoop/EventLoopPromises"
+
+// import EventLoopSetTimeout from "./EventLoop/EventLoopSetTimeout"
+
+// import UseCallback from "./Tasks/UseCallback"
 
 
 const App = () => {
@@ -9,7 +19,13 @@ const App = () => {
     <div>
       {/* <DebounceThrottling /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      {/* <EventLoopSetTimeout /> */}
+      {/* <EventLoopPromises /> */}
+      {/* <AsyncAwait /> */}
+      {/* <PromiseAll /> */}
+      {/* <PromiseRace /> */}
+      <PromiseAllSettled />
     </div>
   )
 }
