@@ -1,0 +1,13 @@
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  display: inline-block;
+  
+  /* 💣 This is the magic line */
+  content-visibility: auto;
+  
+  /* Optional for smooth scrolling effect */
+  contain-intrinsic-size: 150px 200px; /* prevents layout shifts*/
+}

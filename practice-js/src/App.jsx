@@ -1,7 +1,29 @@
-// import DebounceThrottling from "./Tasks/DebounceThrottling"
-// import UseMemo from "./Tasks/UseMemo"
+import styled from "styled-components";
+import LandingPage from "./components/LandingPage/LandingPage";
+// import AI from "./AI/AI"
 
-import PromiseAllSettled from "./Promises/PromiseAllSettled"
+// import ProductGrid from "./Performance/IntersectionObserver/IntersectionObserver"
+
+
+// import ProductList from "./Performance/ContentVisability/ContentVisability"
+
+// import VirtualizedList from "./Tasks/VirtualizedList"
+
+// import DebouncingSearch from "./Tasks/DebouncingSearch"
+
+// import UseMemo from "./hooks/UseMemo"
+
+// import UseRef from "./hooks/UseRef"
+
+// import Login from "./components/Login"
+// import Profile from "./components/Profile"
+// import UseEffect from "./hooks/UseEffect"
+// import UseReducer from "./hooks/UseReducer"
+// import UseState from "./hooks/UseState"
+
+// import Todolits from "./TodoList/Todolits"
+
+// import PromiseAllSettled from "./Promises/PromiseAllSettled"
 
 // import AsyncAwait from "./async-await/Index"
 // import PromiseAll from "./Promises/PromiseAll"
@@ -13,20 +35,16 @@ import PromiseAllSettled from "./Promises/PromiseAllSettled"
 
 // import UseCallback from "./Tasks/UseCallback"
 
+const AppContainer = styled.div`
+  min-height: 100vh;
+  background: #0F172A;
+`;
 
 const App = () => {
   return (
-    <div>
-      {/* <DebounceThrottling /> */}
-      {/* <UseMemo /> */}
-      {/* <UseCallback /> */}
-      {/* <EventLoopSetTimeout /> */}
-      {/* <EventLoopPromises /> */}
-      {/* <AsyncAwait /> */}
-      {/* <PromiseAll /> */}
-      {/* <PromiseRace /> */}
-      <PromiseAllSettled />
-    </div>
+    <AppContainer>
+      <LandingPage />
+    </AppContainer>
   )
 }
 
